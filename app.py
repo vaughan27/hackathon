@@ -13,4 +13,4 @@ def search():
     url = f'https://jobs.github.com/positions.json?description={query}'
     response = requests.get(url)
     jobs = response.json()
-    return render_template('search.html',  jobs=jobs)
+    return render_template('search.html', jobs=jobs)
