@@ -1,39 +1,28 @@
-from flask import Flask
-import requests
 import json
+import requests
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/A')
 def hello_world():
     return 'Hello, World!'
 
-if __name__ == '__main__':
-    app.run()
 
 
-# Set the API endpoint URL
-url = 'https://api.indeed.com/ads/apisearch'
-
-# Set the parameters for your search
-params = {
-    'publisher': 'YOUR_PUBLISHER_ID',
-    'q': 'python developer',
-    'l': 'New York',
-    'sort': 'date',
-    'format': 'json',
-    'v': '2'
-}
-
-# Make a GET request to the API endpoint
-response = requests.get(url, params=params)
-
-# Parse the response JSON
-response_json = json.loads(response.content)
-
-# Extract the job titles from the response
-job_titles = [result['jobtitle'] for result in response_json['results']]
-
-# Print the job titles
-for job_title in job_titles:
-    print(job_title)
+@app.route('/jobs')
+def jobs():
+    publisher_id = 'c4f7f56214793037f6c572f6e3c021e88def5715a91d20e4fdac28fd1859da3f'
+    api_key = 'K07oceIgQVcOyutXP8qhROGsF8tijSdRUVWvzpKyRGYP6NNHHNF18Voa7u17tmlZ'
+    search_params = {
+        'publisher': publisher_id,
+        'q': 'python',
+        'l': 'San Francisco',
+        'jt': 'fulltime',
+        'limit': 10,
+        'format': 'json',
+        'v': '2'
+    }
+    response = requests.get('http://api.indeed.com/ads/apisearch', params=search_params)
+    jobs = response.json()['results']
+    return render_template('jobs.html', jobs=jobs)
