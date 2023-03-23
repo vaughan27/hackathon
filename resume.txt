@@ -1,0 +1,102 @@
+name: James Rebello
+
+jamerrebello99@gmail.com | phone +917744834514
+
+work experience
+
+
+quantitative researcher, alphagrep securities, singapore	jun 2021 - present
+
+    • design of high-frequency strategies for nse options and development of low-latency c++ programs to trade in live markets
+
+    • built a python framework for big data ml research with memory mapping to handle terabytes of book data. it performs greedy clustering, feature selection, and neural model training via genetic optimizers to discover profitable action points.
+
+summer analyst, goldman sachs, bangalore, india	may 2020 - jul 2020
+
+    • developed a microstructure dashboard to service complex client queries regarding daily and intraday trends of market features: volatility, turnover, liquidity, and price range; for stocks and indices and pivot data by characteristics like sector
+
+    • full stack development with a reactjs ui, interactive plotting using plotlyjs and hiplot, a python backend, q-queries to a kdb database, quantitative processing, aggregation and analysis using pandas, and final deployment via an nginx server
+
+
+education
+
+
+indian institute of technology, delhi, india
+may 2021
+bachelor of technology in computer science and engineering, with specialization in data analytics and ai
+
+cgpa: 9.86/10, institute rank: 3 of 850, department rank: 3 of 100
+
+relevant coursework: artificial intelligence, machine learning, operating systems, data structures and algorithms
+
+awards and honors
+
+
+    • awarded best undergraduate project 2019 at iitd open house (alumni association) for cnn breast cancer detection
+
+    • kishore vaigyanik protsahan yojana (kvpy) scholarship: awarded by department of science, government of india
+
+    • all india rank 77 of 1.2 million in iit jee advanced exam; all india rank 86 of 280k in aiims medical entrance exam
+
+projects
+
+
+machine learning with ambiguous labels, iit delhi	jul 2020 - jul 2021
+
+    • literature survey to identify loss functions for partial label learning (pll), like cc, iexplore, min loss, cour loss, svm, and regularization techniques, and performed benchmarking experiments in pytorch, discovering cc as the best baseline
+
+    • proposed a novel method for pll by adding a reinforcement learning agent to select a label from the partial set to provide to the primary discriminative network. reward for the rl agent was improvement in performance of the primary network
+
+    • another novel method for pll using an lstm to generatively model the partial set and jointly train with primary network
+
+    • achieved 1-3% improvements over baseline cc loss on synthetic datasets and three real datasets: lost, msrcv2 and yahoo
+
+mammography reporting & breast cancer detection with cnns, aiims delhi	jan 2019 - nov 2019
+
+    • developed a report generation and abnormality marking software currently used by the aiims radiology department. built with pythonqt to read dicoms, it can search pacs with pynetdicom and avoids hand typing of reports. the tool also generates xml annotations, enabling doctors to build large anonymized ml datasets in the course of reporting.
+
+    • trained se-resnet and inceptionnet on mammograms for normal, benign, and malignant diagnosis with 76% accuracy
+
+    • added patient history like symptoms, family history via bert and jointly trained with image data for a 3% improvement
+
+comparative study of architectures for neural networks	may 2019 - jul 2019
+
+    • a summer undergraduate research award project to compare the time, power and energy use of von neuman (cpu and gpu), digital (fpga), analog and quantum architectures of fully connected neural networks on fischer’s iris and mnist
+
+    • designed a vhdl 2-layer fully connected neural network with on-chip backprop to exploit massively parallel computation on a nexys board. achieved state-of-the-art results on fpga, three orders of magnitude faster training than nvidia gpus
+
+news media bias and classification with rnns	jan 2020 - dec 2020
+
+    • setup a stanfordnlp pipeline to parse and perform rule-based classification of statements spoken ‘by’ and ‘about’ entities
+
+    • trained and applied a recurrent neural network on statements to decide sentiment and rate bias of 6 newspapers in india
+
+computer graphics scene rendering	jan 2020 - may 2020
+
+    • ray traced an interactive scene in c++ with reflection, refraction, anti-aliasing and cook-torrance lighting for a glossy or matte finish. also rendered an opengl scene with lighting, texture lookup and grass-covered objects using shells method
+
+adversarial search ai bot	jul 2019 - nov 2019
+
+• a c++ bot that performs an adversarial search with alpha-beta pruning, bitboards, and transposition tables to play canon
+
+vhdl cpu for arm	jan 2019 - may 2019
+
+    • implemented full multi-cycle cpu for arm assembly language in vhdl on a basys board with the capability to execute data processing (arithmetic, logical), data transfer and branch risc instructions, exception handling and i/o functions
+
+technical skills
+
+
+languages: c, c++, java, python, javascript, matlab, ocaml, prolog, vhdl, verilog, arm assembly, bash, sql, q
+
+libraries: tensorflow, keras, pytorch, opencv, reactjs, pythonqt, opengl, openmp, mpi, android studio, pandas
+
+teaching and volunteer work
+
+
+    • teaching assistant for discrete mathematics, iitd, teaching tutorial classes, setting problem sheets and grading responses
+
+    • academic mentorship for engineering mechanics, iitd, giving freshmen free remedial and problem-solving classes
+
+    • volunteer work with goa-based women and child rights organisation bailancho saad, successfully petitioning govt. of goa to include protection against sexual violence in school curriculums. also assisted in workshops on the rights of children
+
+    • mathematics classes for 7th and 8th graders and organizational work at the national association for the blind, hauz khas
