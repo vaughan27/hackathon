@@ -1,6 +1,8 @@
 import spacy
 import re
 import pdftotxt
+import json
+
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -69,3 +71,8 @@ print("Name:", name)
 print("Email:", email)
 print("Phone number:", phone)
 print("Skills:", skills)
+
+my_json_name = json.dumps(name)
+my_json_email = json.dumps(email)
+my_json_phone = json.dumps(phone)
+my_json_skills = json.dumps(skills)
