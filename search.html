@@ -1,0 +1,18 @@
+<!-- search.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Search Results</title>
+</head>
+<body>
+    <h1>Job Search Results</h1>
+    <ul>
+        {% for job in jobs %}
+            <li>
+                <a href="{{ job.url }}">{{ job.title }}</a>
+                <p>{{ job.description }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
