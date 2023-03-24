@@ -42,7 +42,7 @@ predefined_skills = ['machine learning',
     'excel',
     'english',
     "ms office",
-    "word", "excel", "outlook", "powerpoint", "access"
+    "word",  "outlook", "powerpoint", "access"
     'google drive',
     "docs", "drive", "forms", "gmail", "spreadsheets"
     "excel", "google drive", "open office", "pivot tables", "vertical lookups", "macros"
@@ -50,7 +50,7 @@ predefined_skills = ['machine learning',
     "powerpoint", "google slides", "tableau", "keynote"
     "macos", "microsoft windows",
     "css", "wordpress", "seo", "content management", "mailchimp", "google analytics", "moz",
-    "java", "javascript", "python", "ruby on rails", "perl", "php", "xml", "c#", "c++", "html",
+    "java", "javascript", , "ruby on rails", "perl", "php", "xml", "c#", "c++", "html",
     "apache", "mysql", "sas", "json", "machine learning", "data mining", "sqlite", "rapidminer", "machine learning", 
     "ms access", "oracle", "teradata", "mysql", "sql", "ibm db2", "sap bi"    
     "bcp", "crm", "e-commerce", "hr management", "erp", "quikbooks", "freshbooks", "xero", 
